@@ -1,0 +1,664 @@
+{
+	"info": {
+		"_postman_id": "fb55e990-c95a-452b-89a1-2830e1716c77",
+		"name": "Banking V2 Beneficiary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4920194",
+		"_collection_link": "https://galactic-spaceship-458056.postman.co/workspace/Banking.Api~67392012-56fe-4339-88ca-7db63048af9a/collection/4920194-fb55e990-c95a-452b-89a1-2830e1716c77?action=share&source=collection_link&creator=4920194"
+	},
+	"item": [
+		{
+			"name": "Get beneficiariesByAccount1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get beneficiariesByAccount2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get beneficiariesByAccount3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get beneficiariesByAccount4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get beneficiariesByAccount5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get beneficiariesByAccount6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/06000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"06000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get beneficiary1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/beneficiaries/00100000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"beneficiaries",
+						"00100000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00100000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Christine Conrad\",\r\n    \"iban\": \"DE50 1000 0000 0000 0000 00\",\r\n    \"accountId\":\"01000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00200000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Christine Conrad\",\r\n    \"iban\": \"DE50 20000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00300000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Arne Arndt\",\r\n    \"iban\": \"DE30 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00400000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Benno Bauer\",\r\n    \"iban\": \"DE40 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00500000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Arne Arndt\",\r\n    \"iban\": \"DE30 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary6",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00600000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Benno Bauer\",\r\n    \"iban\": \"DE40 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary7",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00700000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Dana Deppe\",\r\n    \"iban\": \"DE60 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary8",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00800000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Max Mustermann\",\r\n    \"iban\": \"DE20 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary9",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00900000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Christine Conrad\",\r\n    \"iban\": \"DE50 20000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary10",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"01000000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Erika Mustermann\",\r\n    \"iban\": \"DE10 10000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post beneficiary11",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"01100000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Erika Mustermann\",\r\n    \"iban\": \"DE10 20000000 0000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/beneficiaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"beneficiaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put beneficiary1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"10000000-0000-0000-0000-000000000000\",\r\n    \"name\": \"Erika Meier\",\r\n    \"birthdate\": \"1980-01-01T00:00:00\",\r\n    \"email\": \"erika.mustermann@icloud.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/banking/v1/owners/10000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"banking",
+						"v1",
+						"owners",
+						"10000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

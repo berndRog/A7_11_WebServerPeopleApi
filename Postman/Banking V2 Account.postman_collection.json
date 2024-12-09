@@ -1,0 +1,837 @@
+{
+	"info": {
+		"_postman_id": "1e3bc8ed-ef1d-416b-910b-09f935c9d8b9",
+		"name": "Banking V2 Account",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4920194",
+		"_collection_link": "https://galactic-spaceship-458056.postman.co/workspace/Banking.Api~67392012-56fe-4339-88ca-7db63048af9a/collection/4920194-1e3bc8ed-ef1d-416b-910b-09f935c9d8b9?action=share&source=collection_link&creator=4920194"
+	},
+	"item": [
+		{
+			"name": "Get accounts ByOwner1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/10000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"10000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get accounts ByOwner2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/20000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"20000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get accounts ByOwner3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/30000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"30000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get accounts ByOwner4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/40000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"40000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get accounts ByOwner5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/50000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"50000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get accounts ByOwner6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/60000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"60000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactions ByAccount1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/filter?start=2023-01-01&end=2023-06-01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-06-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get account1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get account2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get account3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get account4 By Iban",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/iban/DE30 10000000 0000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"iban",
+						"DE30 10000000 0000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get account5 By Iban",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/iban/DE50 10000000 0000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"iban",
+						"DE50 10000000 0000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get account6 By Iban",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/iban/DE60 10000000 0000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"iban",
+						"DE60 10000000 0000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"01000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE10 10000000 0000000000\",\r\n    \"balance\": 2100,\r\n    \"ownerId\": \"10000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/10000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"10000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"02000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE10 20000000 0000000000\",\r\n    \"balance\": 2000,\r\n    \"ownerId\": \"10000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/10000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"10000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"03000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE20 10000000 0000000000\",\r\n    \"balance\": 3000,\r\n    \"ownerId\": \"20000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/20000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"20000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"04000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE30 10000000 0000000000\",\r\n    \"balance\": 2500,\r\n    \"ownerId\": \"30000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/30000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"30000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"05000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE40 10000000 0000000000\",\r\n    \"balance\": 1900,\r\n    \"ownerId\": \"40000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/40000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"40000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account6",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"06000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE50 10000000 0000000000\",\r\n    \"balance\": 3500,\r\n    \"ownerId\": \"50000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/50000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"50000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account7",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"07000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE50 20000000 0000000000\",\r\n    \"balance\": 3100,\r\n    \"ownerId\": \"50000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/50000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"50000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post account8",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"08000000-0000-0000-0000-000000000000\",\r\n    \"iban\": \"DE60 10000000 0000000000\",\r\n    \"balance\": 4300,\r\n    \"ownerId\": \"60000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/60000000-0000-0000-0000-000000000000/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"60000000-0000-0000-0000-000000000000",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/10000000-0000-0000-0000-000000000000/accounts/01000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"10000000-0000-0000-0000-000000000000",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/10000000-0000-0000-0000-000000000000/accounts/02000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"10000000-0000-0000-0000-000000000000",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/20000000-0000-0000-0000-000000000000/accounts/03000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"20000000-0000-0000-0000-000000000000",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/30000000-0000-0000-0000-000000000000/accounts/04000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"30000000-0000-0000-0000-000000000000",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/40000000-0000-0000-0000-000000000000/accounts/05000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"40000000-0000-0000-0000-000000000000",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/50000000-0000-0000-0000-000000000000/accounts/06000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"50000000-0000-0000-0000-000000000000",
+						"accounts",
+						"06000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account7",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/50000000-0000-0000-0000-000000000000/accounts/07000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"50000000-0000-0000-0000-000000000000",
+						"accounts",
+						"07000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/owners/60000000-0000-0000-0000-000000000000/accounts/08000000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"owners",
+						"60000000-0000-0000-0000-000000000000",
+						"accounts",
+						"08000000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

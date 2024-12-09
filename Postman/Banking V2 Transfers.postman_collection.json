@@ -1,0 +1,740 @@
+{
+	"info": {
+		"_postman_id": "23d8b469-93ff-47d2-a8ad-ce4d8b77ddc6",
+		"name": "Banking V2 Transfers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4920194",
+		"_collection_link": "https://galactic-spaceship-458056.postman.co/workspace/Banking.Api~67392012-56fe-4339-88ca-7db63048af9a/collection/4920194-23d8b469-93ff-47d2-a8ad-ce4d8b77ddc6?action=share&source=collection_link&creator=4920194"
+	},
+	"item": [
+		{
+			"name": "Get transfersByAccountId1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transfersByAccountId2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transfersByAccountId3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transfersByAccountId4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transfersByAccountId5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transfersByAccountId6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/06000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"06000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transfer1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00010000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Christine Conrad\",\r\n    \"date\": \"DE50 10000000 0000000001\",\r\n    \"amount\": 345,\r\n    \"accountId\":\"01000000-0000-0000-0000-000000000000\",\r\n    \"benficiaryId\":\"00100000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5010/banking/v1/transfers/00010000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5010",
+					"path": [
+						"banking",
+						"v1",
+						"transfers",
+						"00010000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00010000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Erika an Chris1\",\r\n    \"date\": \"2023-01-01T09:00:00.000\", \r\n    \"amount\": 345,\r\n    \"accountId\": \"01000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00100000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00020000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Erika an Chris2\",\r\n    \"date\": \"2023-02-01T10:00:00.000\", \r\n    \"amount\": 231,\r\n    \"accountId\": \"01000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00200000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00030000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Erika an Arne\",\r\n    \"date\": \"2023-03-01T11:00:00.000\", \r\n    \"amount\": 289,\r\n    \"accountId\": \"02000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00300000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00040000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Erika an Benno\",\r\n    \"date\": \"2023-04-01T12:00:00.000\", \r\n    \"amount\": 125,\r\n    \"accountId\": \"02000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00400000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00050000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Max an Arne\",\r\n    \"date\": \"2023-05-01T13:00:00.000\", \r\n    \"amount\": 167,\r\n    \"accountId\": \"03000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00500000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer6",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00060000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Max an Benno\",\r\n    \"date\": \"2023-06-01T14:00:00.000\", \r\n    \"amount\": 289,\r\n    \"accountId\": \"03000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00600000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer7",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00070000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Max an Dana\",\r\n    \"date\": \"2023-07-01T15:00:00.000\", \r\n    \"amount\": 312,\r\n    \"accountId\": \"03000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00700000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer8",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00080000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Arne an Max\",\r\n    \"date\": \"2023-08-01T16:00:00.000\", \r\n    \"amount\": 278,\r\n    \"accountId\": \"04000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00800000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer9",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00090000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Arne an Chris2\",\r\n    \"date\": \"2023-09-01T17:00:00.000\", \r\n    \"amount\": 356,\r\n    \"accountId\": \"04000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00900000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer10",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00100000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Benno an Erika1\",\r\n    \"date\": \"2023-10-01T18:00:00.000\", \r\n    \"amount\": 412,\r\n    \"accountId\": \"05000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"01000000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMoney transfer11",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"00110000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Benno an Erika2\",\r\n    \"date\": \"2023-11-01T19:00:00.000\", \r\n    \"amount\": 89,\r\n    \"accountId\": \"05000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"01100000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReverseMoney transfer1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"90010000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Rückbuchung Erika an Chris1\",\r\n    \"date\": \"2023-11-01T09:00:00.000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/transfers/reverse/00010000-0000-0000-0000-000000000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"transfers",
+						"reverse",
+						"00010000-0000-0000-0000-000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReverseMoney transfer2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accountId",
+						"value": "01000000-0000-0000-0000-000000000000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"90010000-0000-0000-0000-000000000000\",\r\n    \"description\": \"Erika an Chris1\",\r\n    \"date\": \"2023-01-01T09:00:00.000\", \r\n    \"amount\": 345,\r\n    \"accountId\": \"01000000-0000-0000-0000-000000000000\",\r\n    \"beneficiaryId\": \"00100000-0000-0000-0000-000000000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5010/banking/v1/accounts/01000000-0000-0000-0000-000000000000/transfers/reverse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5010",
+					"path": [
+						"banking",
+						"v1",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"transfers",
+						"reverse"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

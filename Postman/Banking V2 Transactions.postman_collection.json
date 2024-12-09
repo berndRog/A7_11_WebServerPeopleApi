@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "035a1915-e363-484a-825c-5f5954eceb9e",
+		"name": "Banking V2 Transactions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4920194",
+		"_collection_link": "https://galactic-spaceship-458056.postman.co/workspace/Banking.Api~67392012-56fe-4339-88ca-7db63048af9a/collection/4920194-035a1915-e363-484a-825c-5f5954eceb9e?action=share&source=collection_link&creator=4920194"
+	},
+	"item": [
+		{
+			"name": "Get transactionsByAccountId1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/01000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-06-30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"01000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-06-30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/02000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"02000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/03000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"03000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/04000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"04000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/05000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"05000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/06000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"06000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/06000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"06000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByAccountId8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5100/banking/v2/accounts/06000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"banking",
+						"v2",
+						"accounts",
+						"06000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get transactionsByTransfer1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5010/banking/v1/transactions/02000000-0000-0000-0000-000000000000/transactions/filter?start=2023-01-01&end=2023-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5010",
+					"path": [
+						"banking",
+						"v1",
+						"transactions",
+						"02000000-0000-0000-0000-000000000000",
+						"transactions",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end",
+							"value": "2023-12-31"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
