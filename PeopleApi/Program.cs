@@ -22,7 +22,7 @@ public class Program {
 
       // path for PeopleApi images
       var home = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-      var wwwroot = Path.Combine(home, "banking_files", "v2");
+      var wwwroot = Path.Combine(home, "PeopleApi", "v1");
 
       //
       // Configure API
@@ -125,9 +125,9 @@ public class Program {
 
       // use middleware to handle errors
       if (app.Environment.IsDevelopment())
-         app.UseExceptionHandler("/people/error-development");
+         app.UseExceptionHandler("/people/v1/error-development");
       else
-         app.UseExceptionHandler("/peopleapi/error");
+         app.UseExceptionHandler("/peopleapi/v1/error");
 
       // API Versioning, OpenAPI/Swagger documentation
       var provider =

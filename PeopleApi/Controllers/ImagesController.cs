@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Mime;
 using System.Threading.Tasks;
 using Asp.Versioning;
 using AutoMapper;
@@ -71,7 +72,8 @@ public class ImagesController(
    /// <param name="image">The image file to upload</param>
    /// <returns></returns>
    [HttpPost("images")]
-   [ProducesResponseType(typeof(string), StatusCodes.Status201Created)]
+   [Produces(MediaTypeNames.Application.Json)]
+   [ProducesResponseType(StatusCodes.Status201Created)]
    [ProducesResponseType(StatusCodes.Status400BadRequest)]
    [ProducesResponseType(StatusCodes.Status415UnsupportedMediaType)]
    [ProducesDefaultResponseType]
@@ -139,14 +141,13 @@ public class ImagesController(
    /// <param name="imageUrl">remote url of the image file</param>
    /// <returns>true, when image exists</returns>
    [HttpGet("images/exists/{filename}")]
-   [ProducesResponseType(typeof(bool), StatusCodes.Status200OK)]
+   [ProducesResponseType(StatusCodes.Status200OK)]
    [ProducesResponseType(StatusCodes.Status404NotFound)]
    public IActionResult CheckImageExists(
       [FromQuery] string filename
    ) {
       // local folder: Environment.SpecialFolder.UserProfile/banking_files/v2/images
       var path = Path.Combine(webHostingEnvironment.WebRootPath, filename);
-
       if (System.IO.File.Exists(path))
          return Ok(new { exists = true });
 
@@ -160,11 +161,25 @@ public class ImagesController(
    public async Task<IActionResult> Delete(
       [FromRoute] string filename
    ) {
-      var path = Path.Combine(webHostingEnvironment.WebRootPath, "images", filename);
-      if (!System.IO.File.Exists(path))
+      
+      if (IsPercentEncoded(filename))
+         return BadRequest("Filename is percent encoded.");
+      
+      // var uri = new Uri(filename);
+      // var decodedPath = Uri.UnescapeDataString(uri.AbsolutePath);
+      // var imageName = Path.GetFileNameWithoutExtension(decodedPath);
+      // var extension = Path.GetExtension(decodedPath);
+      
+      var imagePath = Path.Combine(webHostingEnvironment.WebRootPath, "images", filename);
+      if (!System.IO.File.Exists(imagePath))
          return NotFound("File not found.");
 
-      System.IO.File.Delete(path);
+      System.IO.File.Delete(imagePath);
       return NoContent();
+   }
+   
+   public static bool IsPercentEncoded(string filename) {
+      var decodedFilename = Uri.UnescapeDataString(filename);
+      return !string.Equals(filename, decodedFilename, StringComparison.Ordinal);
    }
 }

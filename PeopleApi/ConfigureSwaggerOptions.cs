@@ -24,8 +24,8 @@ public class ConfigureSwaggerOptions(
       ApiVersionDescription description
    ){
       var info = new OpenApiInfo {
-         Title = "BankingApi",
-         Description = "Prinzipbeispiel für ein Bankkonto",
+         Title = "PeopleApi",
+         Description = "WebApi für Vorlesung Mobile Systeme",
          Version = description.ApiVersion.ToString()
       };
       if(description.IsDeprecated)

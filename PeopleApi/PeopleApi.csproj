@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <RootNamespace>BankingApi</RootNamespace>
+    <RootNamespace>PeopleApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
